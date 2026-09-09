@@ -31,3 +31,11 @@ let result = String(user);
 
 console.log(result);
 console.log(typeof result);
+
+console.log(true);
+console.log(+true);// o/p (1)
+console.log(+"");
+
+let cnt = 100;
+++cnt;
+console.log(cnt);
