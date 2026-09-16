@@ -97,4 +97,39 @@ const user = [
 // console.log(Object.values(newUser));
 // console.log(Object.entries(newUser));
 
-console.log(newUser.hasOwnProperty("isLoggedIn"));
+//console.log(newUser.hasOwnProperty("isLoggedIn"));
+ 
+// Object destructuring : Object → { } → key ke basis par
+
+const course ={
+    courseName : "jsHindi",
+    price : 999,
+    courseInstructor : "hitesh sir"
+}
+
+const {courseInstructor : instructor, price : p, courseName : js} = course;
+console.log(instructor, p, js);
+
+// Array destructuring : Array → [ ] → position ke basis par
+const fruits = ["Apple", "Mango", "Banana"];
+
+//const [first, , third] = fruits;
+
+//console.log(first); // Apple
+//console.log(third); // Banana
+
+// using rest / spread operator 
+const numbers = [10, 20, 30, 40, 50];
+
+const [first, second, ...remaining] = numbers;
+
+console.log(first);     // 10
+console.log(second);    // 20
+console.log(remaining); // [30, 40, 50]
+
+//JSON
+// {
+//     "name": "Harry",
+//     "age": 20,
+//     "city": "Jabalpur"
+// }
