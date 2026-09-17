@@ -3,8 +3,8 @@
 // ==========================================
 
 // -------- GLOBAL CODE --------
-
-let val1 = 10;
+/*
+{let val1 = 10;
 let val2 = 5;
 
 function addNum(num1, num2) {
@@ -17,7 +17,8 @@ let result1 = addNum(val1, val2);
 let result2 = addNum(10, 2);
 
 console.log(result1);
-console.log(result2);
+console.log(result2);}
+
 
 
 // ==========================================
@@ -72,13 +73,13 @@ console.log(result2);
 // STEP 3: CODE EXECUTION PHASE
 // ==========================================
 
-let val1 = 10;
+//let val1 = 10; +++++
 // Ab val1 ke andar 10 aa gaya.
 //
 // val1 → 10
 
 
-let val2 = 5;
+//let val2 = 5;
 // Ab val2 ke andar 5 aa gaya.
 //
 // val2 → 5
@@ -87,7 +88,7 @@ let val2 = 5;
 // Function declaration already memory mein available hai.
 // Ab next line execute hoti hai:
 
-let result1 = addNum(val1, val2);
+//let result1 = addNum(val1, val2);++++
 
 
 // ==========================================
@@ -172,7 +173,7 @@ let result1 = addNum(val1, val2);
 // STEP 7: SECOND FUNCTION CALL
 // ==========================================
 
-let result2 = addNum(10, 2);
+//let result2 = addNum(10, 2);
 
 
 // Again NEW Function Execution Context create hoga.
@@ -275,4 +276,5 @@ console.log(result2); // 12
 //  ↓
 // RETURN
 //  ↓
-// POP
+// 
+*/
