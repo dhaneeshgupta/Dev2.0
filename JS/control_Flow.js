@@ -94,6 +94,7 @@ if(Object.keys(emptyObj).length == 0){
 
 
 // Nullish Coelishing Operator {??} : null undefined
-
+console.log(val1);
+val1 = 5 ?? 10;
 
 
