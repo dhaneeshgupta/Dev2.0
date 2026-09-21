@@ -93,8 +93,18 @@ if(Object.keys(emptyObj).length == 0){
 // And  Because === checks both value AND type without coercion gives boolean false 
 
 
-// Nullish Coelishing Operator {??} : null undefined
-console.log(val1);
-val1 = 5 ?? 10;
+// Nullish Coeliscing Operator {??} : null undefined
+
+let val1;
+//val1 = 5 ?? 10;
+//val1 = null ?? 4 ;
+val1 = undefined ?? 18;
+console.log(val1)
 
 
+// Terniary Operator :
+
+// condition ? true(statement) : false(statement))
+
+const iceCreamPrice = 80;
+iceCreamPrice != 80 ? console.log("True") :  console.log("Buy it!");
